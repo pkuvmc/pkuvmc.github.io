@@ -1,13 +1,132 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Welcome to Shiliang Zhang's Homepage</title>
+<style type="text/css">
+.courses {
+	text-align: center;
+	font-size: 16pt;
+	font-weight: bold;
+	font-family: Calibri;
+}
+
+.text {
+  font-size: 12pt;
+	font-family: Calibri, serif;
+}
+</style>
 </head>
-<frameset rows="30,*" cols="*" framespacing="0" frameborder="no" border="0">
-  <frame src="index/index.html" name="topFrame" scrolling="no" noresize="noresize" id="topFrame" title="topFrame" />
-  <frame src="dataset/dataset.html" name="mainFrame" id="mainFrame" title="mainFrame" />
-</frameset>
-<noframes><body>
-</body></noframes>
+
+<body>
+<table width="720" border="0" align="center">
+  <tr>
+    <td class="courses">Dataset and Code </td>
+  </tr>
+</table>
+<table width="720" border="0" align="center">
+  <tr>
+    <td><img src="../home/separator.png" width="720" height="2" /></td>
+  </tr>
+</table>
+
+<table width="720" border="0" align="center">
+  <tr>
+    <td><p class="text"><span class="text"><b>Dataset</span></p></b>
+      <ul align="justify" class="text">
+	      
+	<li><span ><strong>LS-VID</strong> dataset for video person re-id.</span></li>
+        <span class="text">Refer to:Global-Local Temporal Representations For Video Person Re-Identification. <a href="https://arxiv.org/abs/1908.10049" target="_parent">[pdf]</a> </span> 
+	<span class="text"> (Send mail to authors to get the download link.)</span>
+	      
+	<li><span ><strong>(VR-MSMT17)</strong> and <strong>(VR-Market1501)</strong> dataset for varied-resolution person re-id. <a href="https://arxiv.org/abs/1906.09748" target="_parent">[pdf]</a></span></li>
+        <span class="text">Refer to: Resolution-invariant Person Re-Identification.</span>
+        
+
+        <li><span ><a href="../publications/msmt17.html" target="_parent"><strong>Multi Scene Multi Time (MSMT17)</strong></a> dataset for person re-id.</span></li>
+        <span class="text">Refer to: Person Transfer GAN to Bridge Domain Gap for Person Re-Identification<a href="https://arxiv.org/pdf/1711.08565.pdf" target="_parent">[pdf]</a></span>
+
+        <li><span ><strong><a href="https://pan.baidu.com/s/1PqYvykNEb7ZZWzUIJ246pQ">FGIR378k</a></strong> for one shot fine-grained instance retrieval.</span></li>
+        <span>Refer to: One-Shot Fine-Grained Instance Retrieval<a href="https://arxiv.org/pdf/1707.00811.pdf" target="_parent">[pdf]</a></span>
+        <li><span class="text"><a href="https://pan.baidu.com/s/1EQkaEpluFsSL4RuSvsrxtQ" target="_parent"><strong>Person-520K</strong></a>, a large-scale dataset for person ReID.</span></li>
+        <span class="text">Refer to: Large-scale Person Re-Identification as Retrieval<a href="http://ieeexplore.ieee.org/document/8019485/" target="_parent">[pdf]</a></span>
+        <li><span class="text">More datasets will be released in the future</span></li>
+
+    </ul>
+    </td>
+  </tr>
+</table>
+
+<table width="720" border="0" align="center">
+  <tr>
+    <td><p class="text" style="margin-top:-5pt"><span class="text"><b>Code:</span></p></b>
+      <ul align="justify" class="text">
+        <li><span ><strong>Code of MLC.</strong><a href="https://github.com/kennethwdk/MLCReID" target="_parent">[code]</a></span></li>
+        <span class="text">Refer to: Unsupervised Person Re-identification via Multi-label Classification</span>
+
+        <li><span ><strong>Code of APNet.</strong><a href="https://github.com/zhongyingji/APNet" target="_parent">[code]</a></span></li>
+        <span class="text">Refer to: Robust Partial Matching for Person Search in the Wild</span>
+
+        <li><span ><strong>Code of GGL.</strong><a href="https://github.com/liu-xb/GGL" target="_parent">[code]</a></span></li>
+        <span class="text">Refer to: Group-Group Loss Based Global-Regional Feature Learning for Vehicle Re-Identification</span>
+
+        <li><span ><strong>Code of GLTR.</strong><a href="https://github.com/kanei1024/GLTR" target="_parent">[code]</a></span></li>
+        <span class="text">Refer to: Global-Local Temporal Representations For Video Person Re-Identification</span>
+
+	<li><span ><strong>Code of RIPR.</strong><a href="https://github.com/maosnhehe/RIPR" target="_parent">[code]</a></span></li>
+        <span class="text">Refer to: Resolution Invariant Person Re-Identification</span>
+	      
+	<li><span><strong>Code of BDCN.</strong><a href="https://github.com/pkuCactus/BDCN" target='_parent'>[code]</a></span></li>
+	<span class="text">Pretrained model on BSDS500 and NYUDv2: <br>the link https://pan.baidu.com/s/18PcPQTASHKD1-fb1JTzIaQ
+code: j3de</span><br>
+	<span class="text">Refer to: Bi-Directional Cascade Network for Perceptual Edge Detection</span>
+	      
+        <li><span ><strong>Code of CDbin.</strong><a href="https://github.com/JM-IP/CDbin" target="_parent">[code]</a></span></li>
+        <span class="text">Refer to: CDbin: Compact Discriminative Binary Descriptor Learned with Efficient Neural Network</span>
+        
+	<li><span ><strong>Code of M3D for video-based person ReID.</strong><a href="https://github.com/pkuvmc/M3D" target="_parent">[code]</a></span></li>
+        <span class="text">Refer to: Multi-scale 3D Convolution Network for Video Based Person Re-Identification<a href="https://arxiv.org/abs/1811.07468" target="_parent">[pdf]</a></span>
+              
+	<li><span ><strong>Code of Person Transfer GAN (PTGAN) for person ReID.</strong><a href="https://github.com/pkuvmc/PTGAN" target="_parent">[code]</a></span></li>
+        <span class="text">Refer to: Person Transfer GAN to Bridge Domain Gap for Person Re-Identification<a href="https://arxiv.org/pdf/1711.08565.pdf" target="_parent">[pdf]</a></span>
+        
+	<li><span ><strong>Code of RAM (Region-Aware deep Model) for vehicle ReID.</strong><a href="https://github.com/pkuvmc/RAM" target="_parent">[code]</a></span></li>
+        <span class="text">Refer to: RAM: A Region-Aware Deep Model for Vehicle Re-Identification<a href="https://arxiv.org/abs/1806.09283" target="_parent">[pdf]</a></span>
+       
+	<li><span ><strong>Code of GLAD descriptor for person ReID.</strong><a href="https://github.com/pkuvmc/GLAD" target="_parent">[code]</a></span></li>
+        <span class="text">Refer to: GLAD: Global-Local-Alignment Descriptor for Pedestrian Retrieval.<a href="https://arxiv.org/pdf/1709.04329" target="_parent">[pdf]</a></span>
+        
+	<li><span class="text"><strong>Code for large-scale person ReID.</strong><a href="https://github.com/pkuvmc/ICME2017" target="_parent">[code]</a></span></li>
+        <span class="text">Refer to: Large-scale Person Re-Identification as Retrieval.<a href="http://ieeexplore.ieee.org/document/8019485/" target="_parent">[pdf]</a></span>
+        
+	<li><span class="text"><strong>Code for Dr2-Net for Image Compressive Sensing.</strong><a href="https://github.com/pkuvmc/caffe_dr2" target="_parent">[code]</a></span></li>
+        <span class="text">Refer to: DR2-Net: Deep Residual Reconstruction Network for Image Compressive Sensing. <a href="https://pdfs.semanticscholar.org/9dcf/a2baa00342c6f81cac1c9dc2b83a6a1f2065.pdf" target="_parent">[pdf]</a></span>
+	     
+	<li><span class="text"><strong>Code for PDC.</strong><a href="https://github.com/pkuvmc/PDC-ICCV2017" target="_parent">[code]</a></span></li>
+        <span class="text">Refer to: Pose-driven Deep Convolutional Model for Person Re-identification. <a href="https://pdfs.semanticscholar.org/9dcf/a2baa00342c6f81cac1c9dc2b83a6a1f2065.pdf" target="_parent">[pdf]</a></span>
+        
+	<li><span class="text">More code will be released in the future. </span></li>
+        
+    </ul>
+    </td>
+  </tr>
+</table>
+<table width="720" border="0" align="center">
+  <tr>
+    <td><p class="text" style="margin:-5pt"><span class="text"><b>Demo:</span></p></b>
+      <ul align="justify" class="text">
+        <li><span class="text"><strong>VPreID: an online demo for large-scale vehicle and person Re-ID.<a href="http://162.105.95.250:5000/?nsukey=wqhEo0RMtij4DG5WU89c8%2FyybdAbt0KGxHuzg1wSfIwH11fcsdFuMjk1wVin21hlhQ0UfIjxz1cbmBaeurrvWWf2E1Y0tc7B9RYEu8qwxnMm0MyAnROmK4AQlJVdjHbmPgXsU9%2FLv6wg4UdkZXoGb%2FIZ3Vfp%2FjpOTA3KlQ8G0Xm6EWvssGNAztiJyXfKw1wiy4klDnC0joZo1%2FrQnjH3gw%3D%3D" target="_parent">[link]</a></strong></span></li>
+	<li><span class="text"><strong>EAGER: Edge-Aided imaGe undERstanding System.<a href="http://162.105.95.11:8000/EdgeDetection" target="_parent">[link]</a></strong></span></li>
+    </ul>
+    </td>
+  </tr>
+</table>
+
+<table width="720" border="0" align="center">
+  <tr>
+    <td><img src="../home/separator.png" width="720" height="2" /></td>
+  </tr>
+
+</body>
 </html>
